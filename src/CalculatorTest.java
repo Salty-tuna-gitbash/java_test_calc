@@ -48,7 +48,7 @@ public class CalculatorTest {
 
     //palindrome
     @ParameterizedTest
-    @ValueSource(strings = {"wow","refer", "civic", "racecar", "kayak" })
+    @ValueSource(strings = {"bleed","frost", "dead", "caeled", "sad" })
     @DisplayName("Palindrome")
     void testThePalindrome(String value){
         Calculator calc = new Calculator();
